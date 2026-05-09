@@ -1,0 +1,29 @@
+:root {
+  --bg: #F4F1EC;
+  --surface: #FFFFFF;
+  --border: rgba(12,18,32,0.08);
+  --text: #0C1220;
+  --text2: rgba(12,18,32,0.6);
+  --text3: rgba(12,18,32,0.35);
+  --gold: #B8832A;
+  --gold2: #D4A84B;
+  --gold-bg: rgba(184,131,42,0.1);
+  --gold-border: rgba(184,131,42,0.25);
+  --chat-user-bg: linear-gradient(135deg,#B8832A,#D4A84B);
+  --chat-user-text: #FFFFFF;
+  --chat-ai-bg: rgba(12,18,32,0.05);
+  --chat-ai-border: rgba(12,18,32,0.08);
+  --nav-bg: rgba(244,241,236,0.92);
+  --hero-bg: linear-gradient(135deg,rgba(184,131,42,0.1) 0%,rgba(74,127,165,0.06) 100%);
+  --subject-bg: rgba(12,18,32,0.03);
+  --paper-hover: rgba(184,131,42,0.08);
+  --paper-hover-border: rgba(184,131,42,0.2);
+  --modal-bg: #FFFFFF;
+  --grid-line: rgba(184,131,42,0.06);
+  --green: #3D8A5C;
+}
+
+[data-theme="dark"] {
+  --bg: #0C1220;
+  --surface: #141C2E;
+  --border: rgba(232,228,220,0.07);
